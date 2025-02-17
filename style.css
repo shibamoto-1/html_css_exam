@@ -1,6 +1,101 @@
-h1 {
-  color: #364e96; /*文字色*/
-  padding: 5px 0; /*上下の余白*/
-  border-top: solid 6px #364e96; /*上線*/
-  border-bottom: solid 6px #364e96; /*下線*/
+.button {
+  background-color: orange;
+  text-decoration: none;
+  color: white;
+  display: block;
+  border-radius: 40px;
+}
+
+/* ヘッダー関係 */
+.HeaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.header-logo {
+  margin: 5px 30px;
+
+}
+
+.header-ul {
+  display: flex;
+}
+
+.header-li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.header-li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-li > a > span {
+  display: block;
+  text-align: center;
+}
+
+.header-li > .button {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: white;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 1080px){
+
+}
+
+/* section */
+.FV-container {
+  position: relative;
+}
+/* 背景画像 */
+.bg-image-container {
+  position: relative;
+  height: 739px;
+}
+
+.bg-image {
+  position: absolute;
+}
+
+.img-left {
+  top: 0px;
+  left: 0px;
+}
+
+.img-right{
+  right: 0px;
+  bottom: 0;
+}
+
+.img-fill{
+  top: 10px;
+  left: 0;
+}
+
+.img-main{
+  top: 0;
+  right: 0;
+  width: 775px;
+}
+
+/* コンテンツ */
+.FV-content {
+  /* position: absolute;
+  top: 200px;
+  margin: 0 auto;
+  max-width: 1000px; */
+    position: absolute;
+    top: 200px;
+    max-width: 1000px;
+}
+
+.FV-img {
+  position: absolute;
 }
