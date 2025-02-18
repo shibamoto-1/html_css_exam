@@ -4,6 +4,8 @@
   color: white;
   display: block;
   border-radius: 40px;
+  display: flex;
+  align-items: center;
 }
 
 /* ヘッダー関係 */
@@ -39,8 +41,6 @@
 }
 
 .header-li > .button {
-  display: flex;
-  align-items: center;
   height: 100%;
   color: white;
   padding: 0 20px;
@@ -93,9 +93,24 @@
   max-width: 1000px; */
     position: absolute;
     top: 200px;
-    max-width: 1000px;
+    left: 10%;
+    max-width: 600px;
+}
+.FV-h2 {
+  font-size: 40px;
 }
 
+.FV-button {
+  height: 60px;
+  justify-content: center;
+  display: flex;
+}
+
+.FV-p {
+  font-size: 12px;
+}
 .FV-img {
   position: absolute;
+  top: -70px;
+  right: -80px;
 }
